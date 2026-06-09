@@ -112,8 +112,8 @@ async function buyProduct(product, button) {
         amount: product.amount,
         description: product.name,
         clientReferenceId: `${product.id}-${Date.now()}`,
-        successUrl: `${location.origin}/success.html`,
-        cancelUrl: `${location.origin}/index.html`
+        successUrl: `${location.origin}/KaroPayAPISampleSite/success.html`,
+        cancelUrl: `${location.origin}/KaroPayAPISampleSite/index.html`
       })
     });
     const data = await response.json();
