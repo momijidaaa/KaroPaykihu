@@ -3,32 +3,34 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>活動サポート - Karon</title>
+  <title>活動サポート</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header class="site-header">
     <div class="brand"><span>K</span><strong>Activity Support</strong></div>
   </header>
-
   <main>
     <section class="hero">
       <div class="hero-copy">
-        <p>Support</p>
         <h1>活動を支援する</h1>
         <span>あなたの寄付が活動の力になります。</span>
       </div>
     </section>
-
     <section class="product-section">
-      <div class="card" style="padding: 24px; background: white; border-radius: 8px;">
-        <input type="number" id="amount" placeholder="金額を入力 (円)" style="margin-bottom: 15px;">
-        <button id="pay-btn" class="primary-link">寄付する</button>
-        <p id="status" style="margin-top: 15px;"></p>
+      <div class="section-head">
+        <h2>寄付金額</h2>
+        <div id="shop-status">準備完了</div>
+      </div>
+      <div class="shop-config">
+        <label>
+          <span>金額 (円)</span>
+          <input type="number" id="amount" placeholder="500">
+        </label>
+        <button id="pay-btn">決済に進む</button>
       </div>
     </section>
   </main>
-
-  <script src="app.js"></script>
+  <script src="App.js"></script>
 </body>
 </html>
