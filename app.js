@@ -20,7 +20,7 @@ payBtn.addEventListener('click', async () => {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
-        receiveCode: 'Q40iqgLuktsZl-MYesanHxwX',
+        receiveCode: 'tH5REVl7f87KASs-k2G36TcI',
         amount: amount,
         description: '活動支援寄付',
         successUrl: `${location.origin}/success.html`,
